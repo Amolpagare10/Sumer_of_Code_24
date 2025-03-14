@@ -1,29 +1,60 @@
-For Week 3, we will be looking at two classes of algorithms to deal with prediction and control problems, when we don't know the model of the environment :
-1: Monte Carlo Methods
-2: Temporal Difference Learning
-The primary reading material for this week will be Chapters 5 and 6 of Grokking DRL. Also, if you are interested in a more theoretical approach, you may also refer to chapters 5 and 6 from Sutton and Barto and additionally chapter 7 for Eligibility Traces, which acts as a bridge between these two classes of algorithms.
+# 📚 Week 3 - Multi-Armed Bandits and Reinforcement Learning
 
-# Week 3
+## 🚀 Overview
 
-In this week and the next, we shall properly learn about Multiarmed Bandits and Finite Markov Decision Processes.
+In **Week 3**, we dive deep into the **Multi-Armed Bandit problem**, one of the foundational problems in Reinforcement Learning. The focus is on understanding **exploration vs. exploitation trade-offs**, implementing various policies, and analyzing the performance of these algorithms. This week lays the groundwork for working with unknown environments where optimal actions need to be discovered over time.
 
-Your mission, should you choose to accept it is as follows:
+---
 
-## Assignment-1
+## 🎯 Objectives
 
-For your assignment you have to implement some policies for the MultiArmed Bandit problem.
+- ✅ Understand the **Multi-Armed Bandit** problem setup and objectives.
+- ✅ Implement and analyze different policies to solve Bandit problems.
+- ✅ Study **regret minimization** and evaluate agent performance.
+- ✅ Gain hands-on experience with algorithm design and performance visualization.
 
-The file structure:
+---
 
-* `bandits.py` contains the class for the bandit. You do not need to edit this unless you want to add input formats, for eg. batchwise. Currently implemented two types of distribution for bandit arms:
-  * `"Bernoulli"` : Returns a reward of 1 with fixed probabilities.
+## 📦 File Structure
 
-  * `"Gaussian"` : Returns reward from a Gaussian Distribution with fixed mean (dependent on the arm) and `variance=1`.
 
-    The class `Bandit` also keeps tract of $\text{regret} = k \cdot \text{optimal-reward} - \sum R_t$ which can be accessed at any timestamp using `get_regret()` function.
+---
 
-    Note that for Thompson sampling the Beta Distribution (```np.random.beta```) is the conjugate prior for a Bernoulli Distribution.
+## 🧠 Concepts Covered
 
-* `agents.py` contains the class for agents and sub classes for each policy type. You only need to implement the subclasses (again, unless you want to add something or fix bugs).
+- **Multi-Armed Bandits (MAB)**: 
+  - A scenario where an agent chooses between multiple actions (arms) to maximize cumulative rewards.
+  - Each arm provides stochastic rewards, and the agent must balance **exploration** (trying new arms) vs. **exploitation** (choosing known good arms).
 
-* `results.py` show us your results -> train the algorithms and plot the graphs. Be creative.
+- **Reward Distributions**:
+  - **Bernoulli Bandits**: Rewards are binary (0 or 1), returned with a fixed probability.
+  - **Gaussian Bandits**: Rewards are drawn from a Gaussian distribution with a fixed mean and unit variance.
+
+- **Policies Implemented**:
+  - **Epsilon-Greedy**: Explores random arms with probability ε, otherwise chooses the best-known arm.
+  - **Upper Confidence Bound (UCB)**: Selects arms based on optimistic estimates of their rewards.
+  - **Thompson Sampling**: Uses Bayesian inference (Beta distribution as a conjugate prior) to balance exploration and exploitation.
+
+- **Regret Tracking**:
+  - Measures the difference between the reward accumulated by the optimal arm and the agent's chosen arms.
+  - Formula:
+    \[
+    \text{Regret}(t) = k \times \text{Optimal Reward} - \sum_{i=1}^{t} R_i
+    \]
+
+---
+
+## 🛠️ How to Use
+
+1. **Define the Bandit Problem** in `bandits.py` by selecting reward distributions and number of arms.
+2. **Implement Agent Policies** in `agents.py` to interact with the bandit environment.
+3. **Train and Evaluate Agents** using `results.py` to plot cumulative rewards, regrets, and performance comparisons.
+
+---
+
+## 📊 Expected Outcomes
+
+- Comparative plots of cumulative rewards and regrets for different strategies.
+- Analysis of exploration vs. exploitation performance.
+- Understanding of how different algorithms handle the trade-off between trying new actions and leveraging known good actions.
+
