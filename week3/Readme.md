@@ -16,8 +16,12 @@ In **Week 3**, we dive deep into the **Multi-Armed Bandit problem**, one of the 
 ---
 
 ## 📦 File Structure
-
-
+```txt
+Week_3/
+├── bandits.py    # Bandit class with Bernoulli and Gaussian reward distributions, regret tracking.
+├── agents.py     # Agent classes implementing different strategies (Epsilon-Greedy, UCB, Thompson Sampling, etc.).
+└── results.py    # Scripts for training agents, plotting learning curves, and analyzing performance.
+```
 ---
 
 ## 🧠 Concepts Covered
