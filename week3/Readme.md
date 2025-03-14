@@ -4,7 +4,7 @@
 
 In **Week 3**, we dive deep into the **Multi-Armed Bandit problem**, one of the foundational problems in Reinforcement Learning. The focus is on understanding **exploration vs. exploitation trade-offs**, implementing various policies, and analyzing the performance of these algorithms. This week lays the groundwork for working with unknown environments where optimal actions need to be discovered over time.
 
----
+
 
 ## 🎯 Objectives
 
@@ -13,7 +13,6 @@ In **Week 3**, we dive deep into the **Multi-Armed Bandit problem**, one of the 
 - ✅ Study **regret minimization** and evaluate agent performance.
 - ✅ Gain hands-on experience with algorithm design and performance visualization.
 
----
 
 ## 📦 File Structure
 ```txt
@@ -22,7 +21,7 @@ Week_3/
 ├── agents.py     # Agent classes implementing different strategies (Epsilon-Greedy, UCB, Thompson Sampling, etc.).
 └── results.py    # Scripts for training agents, plotting learning curves, and analyzing performance.
 ```
----
+
 
 ## 🧠 Concepts Covered
 
@@ -46,7 +45,7 @@ Week_3/
     \text{Regret}(t) = k \times \text{Optimal Reward} - \sum_{i=1}^{t} R_i
     \]
 
----
+
 
 ## 🛠️ How to Use
 
@@ -54,7 +53,7 @@ Week_3/
 2. **Implement Agent Policies** in `agents.py` to interact with the bandit environment.
 3. **Train and Evaluate Agents** using `results.py` to plot cumulative rewards, regrets, and performance comparisons.
 
----
+
 
 ## 📊 Expected Outcomes
 
