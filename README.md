@@ -8,7 +8,7 @@
 
 </div>
 
----
+
 
 ## 🚀 About the Project
 
@@ -16,7 +16,7 @@ This repository contains a **4-week learning series** of applied **Machine Learn
 
 The entire work focuses on **building strong foundational understanding** and **hands-on implementation** of key RL algorithms and ML techniques, including **environment interaction using Gymnasium**, dynamic programming, and value function approximation.  
 
----
+
 
 ## 🗓️ Weekly Breakdown
 
@@ -28,7 +28,7 @@ The entire work focuses on **building strong foundational understanding** and **
 - **Curve Fitting**:  
   Applied curve fitting methods to model data using functional approximations, optimizing fit parameters.  
 
----
+
 
 ### 📅 Week 2: Introduction to Reinforcement Learning (RL)
 - **N-Armed Bandits**:  
@@ -38,7 +38,6 @@ The entire work focuses on **building strong foundational understanding** and **
 - **Dynamic Programming (DP)**:  
   Explored DP methods for solving MDPs when the model is known. Focused on **policy evaluation**, **policy improvement**, and **value iteration** for finding optimal policies.
 
----
 
 ### 📅 Week 3: Model-Free Prediction & Control
 - **Monte Carlo Methods**:  
@@ -55,7 +54,6 @@ The entire work focuses on **building strong foundational understanding** and **
   - **agents.py**: Agent classes implementing different strategies (e.g., epsilon-greedy, UCB, Thompson Sampling).
   - **results.py**: Training, visualization, and performance plots of the agents.  
 
----
 
 ### 📅 Week 4: Q-Learning and Solving Gymnasium Environments
 - **Q-Learning**:  
@@ -78,7 +76,7 @@ The entire work focuses on **building strong foundational understanding** and **
 - Analysis of agent learning performance via plotted metrics like average reward per episode, exploration vs. exploitation, etc.  
 - Saving Q-tables periodically for analysis.
 
----
+
 
 ## 📂 Project Structure
 ```txt
@@ -102,7 +100,7 @@ The entire work focuses on **building strong foundational understanding** and **
     └── analysis_plots.py                  # Performance visualization and analysis of learning agent
 ```
 
----
+
 
 ## 📊 Key Results & Visualizations
 
@@ -111,7 +109,7 @@ The entire work focuses on **building strong foundational understanding** and **
 - ✅ **Q-learning convergence plots** for Mountain Car.
 - ✅ Impact of **hyperparameter tuning** on learning efficiency.
 
----
+
 
 ## 📚 References
 
