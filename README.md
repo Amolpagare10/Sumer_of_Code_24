@@ -82,4 +82,27 @@ The entire work focuses on **building strong foundational understanding** and **
 ---
 
 ## 📂 Project Structure
+├── Week_1 │ ├── inverse_transform_sampling.py │ ├── pca.py │ └── curve_fitting.py │ ├── Week_2 │ ├── n_armed_bandit.py │ └── mdp_dynamic_programming.py │ ├── Week_3 │ ├── bandits.py │ ├── agents.py │ └── results.py │ └── Week_4 ├── q_learning_mountain_car.py ├── utils.py └── analysis_plots.py
+
+
+---
+
+## 📊 Key Results & Visualizations
+
+- ✅ **Exploration vs. Exploitation** trade-offs in Multi-Armed Bandits.
+- ✅ **Regret minimization** performance comparison between policies.
+- ✅ **Q-learning convergence plots** for Mountain Car.
+- ✅ Impact of **hyperparameter tuning** on learning efficiency.
+
+---
+
+## 📚 References
+
+- **Grokking Deep Reinforcement Learning** by Miguel Morales.
+- **Reinforcement Learning: An Introduction** by Richard S. Sutton and Andrew G. Barto (2nd Edition).
+- **Gymnasium Documentation**: [https://gymnasium.farama.org](https://gymnasium.farama.org).
+- Numpy and Matplotlib libraries for numerical computations and plotting.
+
+
+
 
