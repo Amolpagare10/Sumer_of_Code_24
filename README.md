@@ -3,7 +3,6 @@
 <div align="center">
 
 ![Python](https://img.shields.io/badge/Python-3.8-blue.svg)
-![License](https://img.shields.io/badge/License-MIT-green.svg)
 ![Status](https://img.shields.io/badge/Status-Completed-brightgreen.svg)
 ![Machine Learning](https://img.shields.io/badge/Machine%20Learning-Reinforcement%20Learning-orange)
 
@@ -82,7 +81,25 @@ The entire work focuses on **building strong foundational understanding** and **
 ---
 
 ## 📂 Project Structure
-├── Week_1 │ ├── inverse_transform_sampling.py │ ├── pca.py │ └── curve_fitting.py │ ├── Week_2 │ ├── n_armed_bandit.py │ └── mdp_dynamic_programming.py │ ├── Week_3 │ ├── bandits.py │ ├── agents.py │ └── results.py │ └── Week_4 ├── q_learning_mountain_car.py ├── utils.py └── analysis_plots.py
+
+├── Week_1
+│   ├── inverse_transform_sampling.py      # Implementation of Inverse Transform Sampling
+│   ├── pca.py                             # Principal Component Analysis (PCA) implementation
+│   └── curve_fitting.py                   # Curve fitting techniques
+│
+├── Week_2
+│   ├── n_armed_bandit.py                  # N-Armed Bandit problem and solution algorithms
+│   └── mdp_dynamic_programming.py         # Markov Decision Process and Dynamic Programming methods
+│
+├── Week_3
+│   ├── bandits.py                        # Bandit environment implementation (Bernoulli, Gaussian)
+│   ├── agents.py                        # Agents for different bandit algorithms (Epsilon-Greedy, UCB, Thompson Sampling, etc.)
+│   └── results.py                        # Training and plotting results of different agents
+│
+└── Week_4
+    ├── q_learning_mountain_car.py         # Q-Learning for Mountain Car environment (Gymnasium)
+    ├── utils.py                          # Helper functions (state discretization, epsilon scheduling, etc.)
+    └── analysis_plots.py                  # Performance visualization and analysis of learning agent
 
 
 ---
