@@ -7,7 +7,7 @@ Our goal is to "solve" the **MountainCar-v0** environment provided by **Gymnasiu
 representation and Q-learning updates. This week provides a practical understanding of applying RL to real 
 environments where the state and action spaces are continuous.
 
----
+
 
 ## 🎯 Objectives
 
@@ -16,7 +16,7 @@ environments where the state and action spaces are continuous.
 - ✅ Implement Q-Learning for MountainCar.
 - ✅ Analyze agent performance through training metrics and visualization.
 
----
+
 
 ## 📦 File Structure
 ```
@@ -25,7 +25,6 @@ Week_4/
 ├── utils.py                    # Utility functions for state discretization, environment handling.
 └── analysis_plots.py           # Scripts for plotting training performance, rewards, Q-tables, and learning curves.
 ```
----
 
 ## 🧠 Concepts Covered
 
@@ -43,7 +42,6 @@ Week_4/
 - **Exploration vs. Exploitation**:
   - ε-greedy policy used to balance exploration of unknown actions with exploitation of learned best actions.
 
----
 
 ## ⚙️ Algorithm Flow
 
@@ -63,7 +61,6 @@ Week_4/
    - After training, evaluate the learned policy.
    - Plot episode rewards, Q-values, and visualize performance.
 
----
 
 ## 📊 Expected Outcomes
 
@@ -74,15 +71,12 @@ Week_4/
   - Impact of hyperparameters (learning rate, discount factor, ε-decay).
 - Fully trained agent capable of solving MountainCar environment.
 
----
 
 ## 🌐 Useful References
 
 - Sutton, R. S., & Barto, A. G. (2018). Reinforcement Learning: An Introduction.
 - Gymnasium Documentation: https://gymnasium.farama.org/environments/classic_control/mountain_car/
 - Grokking Deep Reinforcement Learning - Chapters on Q-learning and Value-based Methods.
-
----
 
 ## 💡 Notes
 
