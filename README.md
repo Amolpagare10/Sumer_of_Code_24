@@ -1,4 +1,4 @@
-# 📊 Reinforcement Learning & Applied ML Projects
+# 📊 Deep Reinforcement Learning 
 
 <div align="center">
 
