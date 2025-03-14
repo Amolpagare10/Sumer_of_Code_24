@@ -81,7 +81,7 @@ The entire work focuses on **building strong foundational understanding** and **
 ---
 
 ## 📂 Project Structure
-
+```txt
 ├── Week_1
 │   ├── inverse_transform_sampling.py      # Implementation of Inverse Transform Sampling
 │   ├── pca.py                             # Principal Component Analysis (PCA) implementation
@@ -100,7 +100,7 @@ The entire work focuses on **building strong foundational understanding** and **
     ├── q_learning_mountain_car.py         # Q-Learning for Mountain Car environment (Gymnasium)
     ├── utils.py                          # Helper functions (state discretization, epsilon scheduling, etc.)
     └── analysis_plots.py                  # Performance visualization and analysis of learning agent
-
+```
 
 ---
 
